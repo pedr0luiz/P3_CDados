@@ -1,0 +1,76 @@
+body{
+  text-shadow: 0.02rem 0.02rem #616A6B;
+}
+.navList{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  background-color: #FF6200;
+  color: white;
+  height: 3rem;
+  z-index: 4;
+  position: sticky;
+  top: 0.00000000001rem;
+  box-shadow: 0.1rem 0.1rem;
+}
+.navListItem{
+  margin-left: 1.3rem;
+  font-size: 1.4rem;
+  font-family: avenir,sans-serif;
+}
+.body1{
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-rows: 50% 30%;
+  grid-gap: 0.7rem 0.7rem;
+  background-color: #FF6425;
+  color: white;
+  font-family: tahoma, serif;
+  height: 20rem;
+}
+.tituloPrincipal{
+  font-size: 3rem;
+  grid-column-start: 2;
+  grid-column-end:5;
+  grid-row-start: 1;
+  grid-row-end:2;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+
+}
+.startLink{
+  padding: 0.2rem;
+  font-size: 2rem;
+}
+.startButton{
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 2;
+  grid-row-end:3;
+  text-align: center;
+  vertical-align: middle;
+  border: 0.2rem solid white;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #FF9356;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+.resultadoBox{
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+.resultado{
+  font-size: 2.4rem;
+
+}

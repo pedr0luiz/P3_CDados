@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/drawingCSS.css">
+    <script src="static/js/canvasdrawingJS.js"></script>
+    <title>Drawing Guesser</title>
+    <link rel="icon" type="image/png" href="../static/images/pencil.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <ul class="navList">
+          <li class="navListItem"><a href='/'>Home</a></li>
+          <li class="navListItem"><a href='/draw'>Recomeçar</a></li>
+          <li class="navListItem" id="countdownTimer">Tempo Restante:<h1 class="countdownNumber">30</h1></li>
+          <li class="navListItem">{{categoria}}</li>
+        </ul>
+      </nav>
+    </div>
+    <canvas id="canvasDraw" width="1000" height="650"></canvas>
+    <form method="post">
+      <input type="text" name="DOMString" class="InputHolder">
+      <input type="submit" class="botaoSubmit">
+    </form>
+  </body>
+</html>
